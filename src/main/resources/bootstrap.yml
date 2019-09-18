@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: authenticationservice
+  cloud:
+    config:
+      fail-fast: false
+      username: user
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
